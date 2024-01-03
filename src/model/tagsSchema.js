@@ -1,7 +1,7 @@
 const { default: mongoose } = require("mongoose")
 
 const tagsSchema = new mongoose.Schema({
-    code: String,
+    id: String,
     serial: String,
     assignedUser: String
 });

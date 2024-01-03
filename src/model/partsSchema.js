@@ -1,9 +1,9 @@
 const { default: mongoose } = require("mongoose")
 
 const partsSchema = new mongoose.Schema({
-    code: String,
+    id: String,
     name: String,
-    kpiValue: Number,
+    kpi_value: Number,
 });
 
 const Parts = mongoose.model('parts', partsSchema)

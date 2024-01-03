@@ -2,7 +2,7 @@ const { default: mongoose } = require("mongoose")
 
 const groupsSchema = new mongoose.Schema({
     name: String,
-    code: String,
+    id: String,
     zone1: String,
     zone2: String,
     zone3: String,

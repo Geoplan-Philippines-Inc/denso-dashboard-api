@@ -1,10 +1,10 @@
 const { default: mongoose } = require("mongoose")
 
 const usersSchema = new mongoose.Schema({
-    code: String,
+    id: String,
     name: String,
     password: String,
-    groupId: String,
+    group_id: String,
     isLeader: Boolean,
     type: String,
     email: String,
